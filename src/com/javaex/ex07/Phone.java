@@ -12,7 +12,7 @@ public class Phone {
 
 	@Override
 	public String toString() {
-		return "아.. 그냥 최상위클래스만 super구나...";
+		return "Phone 상속받는 바로 위 상위클래스가 super";
 	}
     
 }

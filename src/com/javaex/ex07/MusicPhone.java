@@ -7,7 +7,7 @@ public class MusicPhone extends Phone{
 		if("음악".equals(str)){
 			playMusic();
 		}else{
-			super.execute(str);
+			super.execute(str); // Phone.class
 		}
 
 	}
@@ -18,7 +18,7 @@ public class MusicPhone extends Phone{
 
 	@Override
 	public String toString() {
-		return super.toString();
+		return super.toString() + " MisicPhone.class";
 	}
 
 }

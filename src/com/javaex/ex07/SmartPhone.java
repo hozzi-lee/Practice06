@@ -10,7 +10,7 @@ public class SmartPhone extends MusicPhone {
 		}else if ("앱".equals(str)) {
 			onApp();
 		}else {
-			super.execute(str); // Phone.class
+			super.execute(str); // MisicPhone.class
 		}
 
 	}
@@ -31,7 +31,7 @@ public class SmartPhone extends MusicPhone {
 
 	@Override
 	public String toString() {
-		return super.toString();
+		return super.toString() + " SmartPhone.class";
 	}
 
 
