@@ -18,7 +18,7 @@ public class MusicPhone extends Phone{
 
 	@Override
 	public String toString() {
-		return super.toString() + " MisicPhone.class";
+		return "MisicPhone.class " + super.toString();
 	}
 
 }
